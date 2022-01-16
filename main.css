@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.site_name{
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+}
+.navigation li{
+    list-style: none;
+    margin: 15px;
+}
+ul li a{
+    text-decoration: none;
+}
+li a{
+    color: black;
+    font-weight: 600;
+}
+
+.main_banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.fist_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fist_heading p{
+    margin: 10px 0;
+}
+.primary_button{
+    background-color: rgb(253, 17, 202);
+    padding: 10px 10px;
+    color: white;
+    border-radius: 15px;
+    font-size: large;
+}
+
+.section_title{
+    text-align: center;
+    font-weight: 700;
+    padding: 50px 0;
+}
+.card_item {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    padding: 10px 0;
+    
+}
+.card{
+    box-shadow: 5px 8px 8px 5px rgba(0, 0, 0, 0.2);
+    margin:20px 30px;
+}
+Span{
+    font-weight: normal;
+    font-size: large;
+}
+.card_title {
+ margin: 0 5px;
+}
+.card img{
+    margin: 5px 20px;
+    border-radius: 5px;
+}
+.fa-star.filled{
+    color: burlywood;
+}
+.right_arow{
+    margin-left: 10px;
+}
+.hello p {
+    text-align: right;
+    color: crimson;
+    margin: 30px 0;
+    padding: 0 20px;
+    font-weight: 500;
+}
+.oppsonal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin: 50px 0;
+    height: 150px;
+}
+footer h1 {
+    text-align: center;
+}
+footer h6{
+    text-align: center;
+}
+
+
+
